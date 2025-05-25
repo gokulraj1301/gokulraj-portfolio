@@ -44,6 +44,12 @@ const Education: React.FC = () => {
       institution: "St.John's Mat. Chennai",
       year: "2022",
       details: "Percentage: 85.16%"
+    },
+    {
+      degree: "SSLC",
+      institution: "St.John's Mat. Chennai",
+      year: "2020",
+      details: "Percentage: 76.4%"
     }
   ];
 
@@ -60,7 +66,7 @@ const Education: React.FC = () => {
             </span>
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {education.map((edu, index) => (
               <div 
                 key={index}
