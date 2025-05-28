@@ -35,19 +35,9 @@ const Projects: React.FC = () => {
 
   const projects: ProjectItem[] = [
     {
-      title: "INTELLIGENT DATA EXPLORATION PLATFORM",
-      description: "Built an interactive tool for data exploration, insights, and trend visualization.",
-      date: "MAY 2025"
-    },
-    {
-      title: "DATA ANALYSIS & ML MODELING TOOL",
-      description: "Built a Tool for data analysis and machine learning with upload, visualization, and no-code model generation.",
-      date: "APR 2025"
-    },
-    {
-      title: "CONSUMER BEHAVIOR PREDICTION APP",
-      description: "Developed a Streamlit-based web app to predict consumer purchasing behavior using machine learning.",
-      date: "MAR 2025"
+      title: "SPORTS EVENTS MANAGEMENT PLATFORM",
+      description: "Developed a web application for managing sports event registrations, scheduling, and result tracking.",
+      date: "OCT 2024"
     },
     {
       title: "ESCAPE ZONE FOCUS PLATFORM",
@@ -60,9 +50,19 @@ const Projects: React.FC = () => {
       date: "FEB 2025"
     },
     {
-      title: "SPORTS EVENTS MANAGEMENT PLATFORM",
-      description: "Developed a web application for managing sports event registrations, scheduling, and result tracking.",
-      date: "OCT 2023"
+      title: "CONSUMER BEHAVIOR PREDICTION APP",
+      description: "Developed a Streamlit-based web app to predict consumer purchasing behavior using machine learning.",
+      date: "MAR 2025"
+    },
+    {
+      title: "DATA ANALYSIS & ML MODELING TOOL",
+      description: "Built a Tool for data analysis and machine learning with upload, visualization, and no-code model generation.",
+      date: "APR 2025"
+    },
+    {
+      title: "INTELLIGENT DATA EXPLORATION PLATFORM",
+      description: "Built an interactive tool for data exploration, insights, and trend visualization.",
+      date: "MAY 2025"
     }
   ];
 
