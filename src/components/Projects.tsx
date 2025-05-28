@@ -5,7 +5,8 @@ interface ProjectItem {
   title: string;
   description: string;
   date: string;
-  link?: string;
+  demoLink: string;
+  githubLink: string;
 }
 
 const Projects: React.FC = () => {
@@ -37,32 +38,44 @@ const Projects: React.FC = () => {
     {
       title: "SPORTS EVENTS MANAGEMENT PLATFORM",
       description: "Developed a web application for managing sports event registrations, scheduling, and result tracking.",
-      date: "OCT 2024"
+      date: "OCT 2024",
+      demoLink: "https://sports-events-platform.vercel.app",
+      githubLink: "https://github.com/gokulraj1301/sports-events-platform"
     },
     {
       title: "ESCAPE ZONE FOCUS PLATFORM",
       description: "Developed a web-based system designed to enhance focus and productivity.",
-      date: "JAN 2025"
+      date: "JAN 2025",
+      demoLink: "https://escape-zone.vercel.app",
+      githubLink: "https://github.com/gokulraj1301/escape-zone"
     },
     {
       title: "CAL HUB - MULTIPLE CALCULATORS",
       description: "A website where you can use multiple calculators in our day to day lives on the same website.",
-      date: "FEB 2025"
+      date: "FEB 2025",
+      demoLink: "https://calhub.vercel.app",
+      githubLink: "https://github.com/gokulraj1301/calhub"
     },
     {
       title: "CONSUMER BEHAVIOR PREDICTION APP",
       description: "Developed a Streamlit-based web app to predict consumer purchasing behavior using machine learning.",
-      date: "MAR 2025"
+      date: "MAR 2025",
+      demoLink: "https://consumer-behavior.vercel.app",
+      githubLink: "https://github.com/gokulraj1301/consumer-behavior"
     },
     {
       title: "DATA ANALYSIS & ML MODELING TOOL",
       description: "Built a Tool for data analysis and machine learning with upload, visualization, and no-code model generation.",
-      date: "APR 2025"
+      date: "APR 2025",
+      demoLink: "https://ml-modeling-tool.vercel.app",
+      githubLink: "https://github.com/gokulraj1301/ml-modeling-tool"
     },
     {
       title: "INTELLIGENT DATA EXPLORATION PLATFORM",
       description: "Built an interactive tool for data exploration, insights, and trend visualization.",
-      date: "MAY 2025"
+      date: "MAY 2025",
+      demoLink: "https://data-exploration.vercel.app",
+      githubLink: "https://github.com/gokulraj1301/data-exploration"
     }
   ];
 
@@ -99,16 +112,26 @@ const Projects: React.FC = () => {
                 
                 <p className="text-gray-300 mb-4">{project.description}</p>
                 
-                {project.link && (
+                <div className="flex space-x-3">
                   <a 
-                    href={project.link} 
-                    target="_blank" 
+                    href={project.demoLink}
+                    target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors"
+                    className="inline-flex items-center px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm hover:bg-blue-500/30 transition-colors"
                   >
-                    View Project <ExternalLink size={14} className="ml-1" />
+                    Live Demo
+                    <ExternalLink size={14} className="ml-1" />
                   </a>
-                )}
+                  <a 
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-3 py-1 bg-slate-700/50 text-gray-300 rounded-full text-sm hover:bg-slate-700/70 transition-colors"
+                  >
+                    GitHub
+                    <ExternalLink size={14} className="ml-1" />
+                  </a>
+                </div>
               </div>
             ))}
           </div>
