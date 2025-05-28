@@ -35,9 +35,19 @@ const Projects: React.FC = () => {
 
   const projects: ProjectItem[] = [
     {
-      title: "SPORTS EVENTS MANAGEMENT PLATFORM",
-      description: "Developed a web application for managing sports event registrations, scheduling, and result tracking.",
-      date: "OCT 2023"
+      title: "INTELLIGENT DATA EXPLORATION PLATFORM",
+      description: "Built an interactive tool for data exploration, insights, and trend visualization.",
+      date: "MAY 2025"
+    },
+    {
+      title: "DATA ANALYSIS & ML MODELING TOOL",
+      description: "Built a Tool for data analysis and machine learning with upload, visualization, and no-code model generation.",
+      date: "APR 2025"
+    },
+    {
+      title: "CONSUMER BEHAVIOR PREDICTION APP",
+      description: "Developed a Streamlit-based web app to predict consumer purchasing behavior using machine learning.",
+      date: "MAR 2025"
     },
     {
       title: "ESCAPE ZONE FOCUS PLATFORM",
@@ -48,6 +58,11 @@ const Projects: React.FC = () => {
       title: "CAL HUB - MULTIPLE CALCULATORS",
       description: "A website where you can use multiple calculators in our day to day lives on the same website.",
       date: "FEB 2025"
+    },
+    {
+      title: "SPORTS EVENTS MANAGEMENT PLATFORM",
+      description: "Developed a web application for managing sports event registrations, scheduling, and result tracking.",
+      date: "OCT 2023"
     }
   ];
 
@@ -64,7 +79,7 @@ const Projects: React.FC = () => {
             </span>
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project, index) => (
               <div 
                 key={index}
