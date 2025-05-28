@@ -48,8 +48,8 @@ const Hero: React.FC = () => {
               
               <div className="flex items-center justify-center lg:justify-start">
                 <Phone size={16} className="text-blue-400 mr-2" />
-                <a href="tel:+919445678646" className="hover:text-blue-400 transition-colors">
-                  +91-9445678646
+                <a href="tel:+919445678666" className="hover:text-blue-400 transition-colors">
+                  +91-9445678666
                 </a>
               </div>
               
