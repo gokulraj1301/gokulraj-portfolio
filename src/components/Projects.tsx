@@ -39,43 +39,43 @@ const Projects: React.FC = () => {
       title: "SPORTS EVENTS MANAGEMENT PLATFORM",
       description: "Developed a web application for managing sports event registrations, scheduling, and result tracking.",
       date: "OCT 2024",
-      demoLink: "https://sports-events-platform.vercel.app",
-      githubLink: "https://github.com/gokulraj1301/sports-events-platform"
+      demoLink: "https://sports-events-management-platform.vercel.app/",
+      githubLink: "https://github.com/gokulraj1301/SportsEventsManagementPlatform"
     },
     {
       title: "ESCAPE ZONE FOCUS PLATFORM",
       description: "Developed a web-based system designed to enhance focus and productivity.",
       date: "JAN 2025",
-      demoLink: "https://escape-zone.vercel.app",
+      demoLink: "https://escapezone.vercel.app/",
       githubLink: "https://github.com/gokulraj1301/escape-zone"
     },
     {
       title: "CAL HUB - MULTIPLE CALCULATORS",
       description: "A website where you can use multiple calculators in our day to day lives on the same website.",
       date: "FEB 2025",
-      demoLink: "https://calhub.vercel.app",
-      githubLink: "https://github.com/gokulraj1301/calhub"
+      demoLink: "https://calculator-hub-gr.vercel.app/",
+      githubLink: "https://github.com/gokulraj1301/Calculator-Hub"
     },
     {
       title: "CONSUMER BEHAVIOR PREDICTION APP",
       description: "Developed a Streamlit-based web app to predict consumer purchasing behavior using machine learning.",
       date: "MAR 2025",
-      demoLink: "https://consumer-behavior.vercel.app",
-      githubLink: "https://github.com/gokulraj1301/consumer-behavior"
+      demoLink: "https://consumer-behavior-prediction.streamlit.app/",
+      githubLink: "https://github.com/gokulraj1301/consumer-behavior-prediction"
     },
     {
       title: "DATA ANALYSIS & ML MODELING TOOL",
       description: "Built a Tool for data analysis and machine learning with upload, visualization, and no-code model generation.",
       date: "APR 2025",
-      demoLink: "https://ml-modeling-tool.vercel.app",
-      githubLink: "https://github.com/gokulraj1301/ml-modeling-tool"
+      demoLink: "https://data-analysis-tool-ml-model-gr.streamlit.app/",
+      githubLink: "https://github.com/gokulraj1301/data-analysis-tool-ml-model"
     },
     {
       title: "INTELLIGENT DATA EXPLORATION PLATFORM",
       description: "Built an interactive tool for data exploration, insights, and trend visualization.",
       date: "MAY 2025",
-      demoLink: "https://data-exploration.vercel.app",
-      githubLink: "https://github.com/gokulraj1301/data-exploration"
+      demoLink: "https://ibm-data-analysis-project-gr.streamlit.app/",
+      githubLink: "https://github.com/gokulraj1301/ibm-data-analysis-project"
     }
   ];
 
