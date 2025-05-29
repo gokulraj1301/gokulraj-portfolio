@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Github as GitHub, Mail, MapPin, Phone, Linkedin, Twitter, Instagram } from 'lucide-react';
+import { Github as GitHub, Mail, MapPin, Phone, Linkedin, Twitter, Instagram, Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const profileRef = useRef<HTMLDivElement>(null);
@@ -24,6 +24,10 @@ const Hero: React.FC = () => {
       }
     };
   }, []);
+
+  const handleDownloadResume = () => {
+    window.open('https://drive.google.com/file/d/11a__RBBez4MU8JzI3BwGtWcpkMIAL8-M/view?usp=drive_link', '_blank');
+  };
 
   return (
     <section className="min-h-screen pt-20 flex flex-col justify-center relative overflow-hidden" id="home">
@@ -107,12 +111,19 @@ const Hero: React.FC = () => {
               </div>
             </div>
             
-            <div className="mt-8">
+            <div className="mt-8 flex gap-4">
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-full transition-colors shadow-lg hover:shadow-blue-500/20"
               >
                 Get In Touch
+              </button>
+              <button
+                onClick={handleDownloadResume}
+                className="px-6 py-3 bg-blue-500/20 hover:bg-blue-500/30 text-blue-300 font-medium rounded-full transition-colors shadow-lg hover:shadow-blue-500/20 flex items-center"
+              >
+                <Download size={16} className="mr-2" />
+                Download Resume
               </button>
             </div>
           </div>
